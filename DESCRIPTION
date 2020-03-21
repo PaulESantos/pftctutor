@@ -5,7 +5,7 @@ Version: 0.10.1.9000
 Authors@R: c(
   person("Julua", "Chacon", role = c("aut", "cre"), email = "juliachacon@gmail.com",
         comment = c(ORCID = "0000-0001-9986-114X")),
-  person("Paul Efren", "Santos Andrade", role = "aut", email = "paulefrens@gmail.com"),
+  person("Paul Efren", "Santos Andrade", role = "aut", email = "paulefrens@gmail.com")
   )
 Description: Create interactive tutorials using R Markdown to guide PFCT student how to work with data collected during the courses.
 License: Apache License (>= 2.0)
