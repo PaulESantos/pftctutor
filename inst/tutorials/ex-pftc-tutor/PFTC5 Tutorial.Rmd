@@ -1,8 +1,10 @@
 ---
-title: "PFTC 5 - Tutorial"
+title: "PFTC tutorial - Gongga Mountain - China"
 subtitle: "By: Julia Chacón"
 output: learnr::tutorial
 runtime: shiny_prerendered
+description: >
+  This is an R tutorial for working with the Transplant Experiment data in Gongga Mountain, China. The purpose of the tutorial is to be able to download the data, read them and understand their structure before playing with them.
 ---
 
 ```{r setup, include=FALSE}
@@ -10,10 +12,6 @@ library(learnr)
 here::here()
 knitr::opts_chunk$set(echo = FALSE)
 ```
-
-
-
-This is an R tutorial for working with the Transplant Experiment data in Gongga Mountain, China. The purpose of the tutorial is to be able to download the data, read them and understand their structure before playing with them.
 
 ## Site Information
 
@@ -105,7 +103,7 @@ Location of PFTC Data:
 
 - To know the exact location of each PFTC Data check this file: [Here](https://docs.google.com/spreadsheets/d/1y81Xv33BaoWV2FNx0F9XbikjKeHLGNxfmWZ2w4xmISk/edit#gid=0])
 
-## COMMUNITY DATA
+## Community Data
 
 China community data from the transplants:
 
@@ -115,7 +113,7 @@ get_file(node = "4hjzu",
          path = "community/data")
 ```
 
-## TRAIT DATA
+## Trait Data
 
 - China traits: Leaf traits
 
