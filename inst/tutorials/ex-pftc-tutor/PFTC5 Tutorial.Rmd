@@ -1,5 +1,5 @@
 ---
-title: "PFTC tutorial - Gongga Mountain - China"
+title: "PFTC Setup - Gongga Mountain - China"
 subtitle: "By: Julia Chacón"
 output: learnr::tutorial
 runtime: shiny_prerendered
